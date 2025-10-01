@@ -71,6 +71,7 @@ Las decisiones de diseño arquitectónico iniciales reflejan los requisitos obli
 | Decisión (ADR) | Alternativas | *Trade-offs* (Compensaciones) |
 | :--- | :--- | :--- |
 | **Implementar la solución F-eCX usando Credenciales Verificables (VCs) e Identificadores Descentralizados (DIDs), siguiendo los estándares del W3C.** | **A1:** Utilizar una Infraestructura de Clave Pública (PKI) centralizada gestionada por una entidad (ej. autoridad certificadora nacional). **A2:** Utilizar solo certificados de firma electrónica existentes. | **Ventajas:** **Seguridad y Privacidad**, **Autenticidad** y **Trazabilidad**. Permite la **verificación descentralizada**. **Desafíos:** Mayor **Complejidad Técnica** y riesgo de adopción. |  
+
 **(Referencia: W3C, DID & VC Standards)** - COMPROBADO POR MI
 
 ### ADR 2: Estilo Arquitectónico para la Interoperabilidad
@@ -78,6 +79,7 @@ Las decisiones de diseño arquitectónico iniciales reflejan los requisitos obli
 | Decisión (ADR) | Alternativas | *Trade-offs* (Compensaciones) |
 | :--- | :--- | :--- |
 | **Implementar una arquitectura de integración mediante una Capa de APIs.** | **A1:** Bases de datos compartidas o Data Lake central. **A2:** Protocolos punto a punto rígidos. | **Ventajas:** Desacoplamiento, modularidad, menor impacto en sistemas legados, flexibilidad. **Desafíos:** Mayor esfuerzo de mantenimiento de APIs y traductores. |  
+
 **(Referencia: APIs para interoperabilidad - GUÍA BID)** - COMPROBADO POR MI
 
 ### ADR 3: Estándar del Modelo de Datos
@@ -85,6 +87,7 @@ Las decisiones de diseño arquitectónico iniciales reflejan los requisitos obli
 | Decisión (ADR) | Alternativas | *Trade-offs* (Compensaciones) |
 | :--- | :--- | :--- |
 | **Adoptar el Modelo de Datos de la OMA como referencia.** | **A1:** Modelo regional nuevo basado en UBL. **A2:** Modelo basado solo en Factura Electrónica doméstica. | **Ventajas:** Armonización internacional, facilita el intercambio. **Desafíos:** Puede ser insuficiente para control fiscal interno. Requiere datos adicionales. |  
+
 **(Referencia: OMA Data Model)** - COMPROBADO POR MI
 
 ### ADR 4: Estrategia de Armonización de Datos (Temporalidad)
@@ -92,6 +95,7 @@ Las decisiones de diseño arquitectónico iniciales reflejan los requisitos obli
 | Decisión (ADR) | Alternativas | *Trade-offs* (Compensaciones) |
 | :--- | :--- | :--- |
 | **Utilizar traductores de datos como solución intermedia.** | **A1:** Modificación inmediata de sistemas nacionales al estándar F-eCX/OMA. | **Ventajas:** Minimiza impacto inicial, facilita adopción progresiva. **Desafíos:** Mantiene redundancia y complejidad en traducción. |  
+
 **(Referencia: Estrategia de Armonización - ARCHIVO BID)** - COMPROBADO POR MI
 
 ### ADR 5: Enfoque de Licenciamiento de Software
@@ -99,4 +103,5 @@ Las decisiones de diseño arquitectónico iniciales reflejan los requisitos obli
 | Decisión (ADR) | Alternativas | *Trade-offs* (Compensaciones) |
 | :--- | :--- | :--- |
 | **Desarrollar la solución con código abierto.** | **A1:** Adquirir solución propietaria. | **Ventajas:** Mitiga riesgo de sostenibilidad, permite auditoría y mejora del código. **Desafíos:** Requiere más recursos internos o consultoría para mantenimiento. |  
+
 **(Referencia: Licenciamiento Open Source - DOCUMENTO PROYECTO)** - COMPROBADO POR MI
