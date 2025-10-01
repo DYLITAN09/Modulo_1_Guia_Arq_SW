@@ -6,25 +6,25 @@ A continuación, se presenta el resumen de los objetivos, el alcance y las restr
 
 ### **Objetivos del Proyecto RG-T4185**
 
-El objetivo general es **contribuir y acelerar el desarrollo y la implementación de la Factura Electrónica de Comercio Exterior (F-eCX)**, mediante el diseño, implementación y pilotaje del modelo. Esto busca contribuir a la eficiencia en la recolección de tributos, disminuir el fraude y la evasión, y promover el comercio regional e internacional en un contexto de trazabilidad e integridad.
+El objetivo general es **contribuir y acelerar el desarrollo y la implementación de la Factura Electrónica de Comercio Exterior (F-eCX)**, mediante el diseño, implementación y pilotaje del modelo. Esto busca contribuir a la eficiencia en la recolección de tributos, disminuir el fraude y la evasión, y promover el comercio regional e internacional en un contexto de trazabilidad e integridad. **(Sección II. Objetivos y Justificación de la CT- ARCHIVO REOI)** - COMPROBADO POR MÍ
 
 **Objetivos Estratégicos Clave (Justificación):**
 
-*   **Control Fiscal y Aduanero:** Mejorar la recaudación tributaria y aduanera, perfeccionando la gestión de riesgo. Específicamente, es fundamental para lograr un **control efectivo del Impuesto sobre el Valor Añadido (IVA)** de exportación e importación.
+*   **Control Fiscal y Aduanero:** Mejorar la recaudación tributaria y aduanera, perfeccionando la gestión de riesgo. Específicamente, es fundamental para lograr un **control efectivo del Impuesto sobre el Valor Añadido (IVA)** de exportación e importación. **(Sección II. Objetivos y Justificación de la CT- ARCHIVO REOI)** - COMPROBADO POR MÍ
 *   **Integración:** Diseñar un modelo que permita:
-    *   **Integrar los controles** de la administración tributaria y aduanera a nivel nacional en el país de exportación.
-    *   **Interconectar los controles aduaneros** entre los países de exportación e importación.
-    *   **Integrar los controles aduaneros y fiscales** en el país de importación.
-*   **Facilitación del Comercio:** Simplificar el proceso regulatorio y facilitar el cumplimiento tributario y aduanero a los operadores económicos, promoviendo **ahorros de tiempo y recursos financieros** para el sector privado.
-*   **Armonización:** Promover el desarrollo de lineamientos regionales y el diseño de la F-eCX en aras de la **armonización, estandarización y digitalización** en la región.
+    *   **Integrar los controles** de la administración tributaria y aduanera a nivel nacional en el país de exportación. **(Sección 2.Objetivos del proyecto- ARCHIVO REOI)** - COMPROBADO POR MÍ
+    *   **Interconectar los controles aduaneros** entre los países de exportación e importación. **(Sección 2.Objetivos del proyecto- ARCHIVO REOI)** - COMPROBADO POR MÍ
+    *   **Integrar los controles aduaneros y fiscales** en el país de importación. **(Sección 2.Objetivos del proyecto- ARCHIVO REOI)** - COMPROBADO POR MÍ
+*   **Facilitación del Comercio:** Simplificar el proceso regulatorio y facilitar el cumplimiento tributario y aduanero a los operadores económicos, promoviendo **ahorros de tiempo y recursos financieros** para el sector privado.  **(Apartado 1.1 Consultoría individual - ARCHIVO TERMINOS DE REFERENCIA)** - COMPROBADO POR MÍ
+*   **Armonización:** Promover el desarrollo de lineamientos regionales y el diseño de la F-eCX en aras de la **armonización, estandarización y digitalización** en la región. **(Apartado 1.1 Consultoría individual- ARCHIVO REOI)** - COMPROBADO POR MÍ
 
 ### **Alcance del Proyecto RG-T4185**
 
-El alcance principal es el desarrollo e implementación de un **piloto de una solución digital** para la emisión y gestión de la F-eCX que se apalanca en el uso de credenciales verificables (VCs).
+El alcance principal es el desarrollo e implementación de un **piloto de una solución digital** para la emisión y gestión de la F-eCX que se apalanca en el uso de credenciales verificables (VCs). **(Sección 3. Servicios de consultoría- ARCHIVO REOI)** - COMPROBADO POR MÍ
 
 **Componentes y Entregables (Componente 1 - US$395,000):**
 
-1.  **Desarrollo de Lineamientos Regionales:** Desarrollo de lineamientos, estrategias, guías, y el **diseño del modelo conceptual y operativo regional** de F-eCX armonizado. Esto incluye el relevamiento y compilación de los marcos regulatorios y normativos.
+1.  **Desarrollo de Lineamientos Regionales:** Desarrollo de lineamientos, estrategias, guías, y el **diseño del modelo conceptual y operativo regional** de F-eCX armonizado. Esto incluye el relevamiento y compilación de los marcos regulatorios y normativos. **(II. Descripción de las actividades/componentes y presupuesto-ARCHIVO DOCUMENTO DE CT)** - COMPROBADO POR MI 
 2.  **Solución Digital y Pilotaje:** Diseño e implementación de una solución digital de interoperabilidad que incorpore criterios modernos de seguridad y ciberseguridad.
     *   El piloto debe ser adaptable a las necesidades de los países exportadores e importadores participantes.
     *   El alcance del piloto deberá contemplar la participación de las administraciones aduaneras y tributarias de **2 o 3 países participantes** (Brasil, Colombia, Guatemala, República Dominicana y Uruguay son los países beneficiarios).
@@ -32,12 +32,16 @@ El alcance principal es el desarrollo e implementación de un **piloto de una so
     *   La implementación de la prueba piloto se ejecutará en etapas, iniciando con la integración de la factura de exportación y la declaración de exportación, y concluyendo con la integración de la declaración de importación con la factura de importación.
     *   El piloto se ejecutará con **datos ficticios** en **ambientes de calidad** para simular operaciones reales, **sin efectos jurídicos**.
 
+   **(II. Descripción de las actividades/componentes y presupuesto-ARCHIVO DOCUMENTO DE CT)** - COMPROBADO POR MI
+
 **Tecnología Mandatoria:**
 
 *   La solución debe apalancarse obligatoriamente en el uso de **Credenciales Verificables (VCs)** e **Identificadores Descentralizados (DIDs)**, siguiendo los **estándares de la W3C**.
 *   El desarrollo se realizará en **código abierto** (OpenSource), según los requisitos del BID.
 *   El modelo de datos se basará en el **Modelo de Datos de la Organización Mundial de Aduanas (OMA)**, adaptado a las necesidades específicas de la F-eCX y de las administraciones nacionales.
 
+   **(8. Criterios de aceptación-ARCHIVO DOCUMENTO DE REOI)** - COMPROBADO POR MI 
+    
 ### **Restricciones Regulatorias y de Diseño**
 
 Las restricciones provienen del marco normativo y de las simplificaciones aplicadas para el piloto:
@@ -52,3 +56,4 @@ Las restricciones provienen del marco normativo y de las simplificaciones aplica
 | **Exclusión de Rectificaciones Post-Exportación (Piloto)** | El piloto **no tratará las rectificaciones** de la F-eCXe que se produzcan después de la finalización del despacho de exportación, lo que elimina la posibilidad de operar la F-eCXi modificadora. |Funciones que se pueden eliminar del piloto|
 | **Exclusión de Tratamiento de Divergencias (Piloto)** | Los procedimientos de la sección 13 del documento de diseño conceptual, relativos al **tratamiento de las divergencias entre el exportador y el importador**, **no se procesarán en el piloto**. | Funciones que se pueden eliminar del piloto|
 
+**COMPROBADAS POR MI TODAS LAS CITAS**
