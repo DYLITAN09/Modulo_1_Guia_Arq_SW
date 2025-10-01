@@ -50,5 +50,5 @@ Las restricciones provienen del marco normativo y de las simplificaciones aplica
 | **Impacto Normativo Mínimo** | La solución debe buscar el **menor impacto** en los procesos actuales de la administración tributaria y aduanera, recomendando el uso de **traductores de datos** como alternativa para minimizar cambios estructurales en los modelos de datos existentes. | Objetivo del documento |
 | **Simplificación de la Rectificación (Piloto)** | Para simplificar el piloto, las rectificaciones de la F-eCX (antes de la D-eX) se harán mediante **cancelación y emisión de una nueva F-eCX**. Esto elimina la necesidad de operar los estados de F-eCX modificadora, complementaria o correctiva durante el piloto en esa etapa. |ANEXO III - Etapas clave del ciclo F-eCX |
 | **Exclusión de Rectificaciones Post-Exportación (Piloto)** | El piloto **no tratará las rectificaciones** de la F-eCXe que se produzcan después de la finalización del despacho de exportación, lo que elimina la posibilidad de operar la F-eCXi modificadora. |Funciones que se pueden eliminar del piloto|
-
 | **Exclusión de Tratamiento de Divergencias (Piloto)** | Los procedimientos de la sección 13 del documento de diseño conceptual, relativos al **tratamiento de las divergencias entre el exportador y el importador**, **no se procesarán en el piloto**. | Funciones que se pueden eliminar del piloto|
+
