@@ -16,6 +16,7 @@ El Diagrama C4 Nivel Contexto muestra la **Plataforma de Solución Digital F-eCX
 | ID | Nombre | Descripción |
 | :--- | :--- | :--- |
 | **F-eCX** | **Plataforma de Solución Digital F-eCX** | **Sistema digital para la emisión, gestión y verificación del ciclo completo de la Factura Electrónica de Comercio Exterior (F-eCX)**, desde la exportación hasta el control fiscal en la importación. Se basa en **Credenciales Verificables (VCs) e Identificadores Descentralizados (DIDs)**. |  
+
 **(Referencia: W3C Standards, Identidad Descentralizada)** - COMPROBADO POR MI
 
 ### Actores Humanos (Users)
@@ -28,6 +29,7 @@ El Diagrama C4 Nivel Contexto muestra la **Plataforma de Solución Digital F-eCX
 | **A-E** | **Aduana de Exportación** | Recibe y valida la F-eCX, genera la D-eX. **Transmite el archivo F-eCXe** a la Aduana de Importación. |
 | **A-I** | **Aduana de Importación** | Recibe la F-eCXe, valida la F-eCXi, genera la D-eM, y genera la F-eCXm y N-eCX para retroalimentación y control fiscal. |
 | **AT-I** | **Admin. Tributaria País Importador** | Recibe la F-eCXm (archivo de control tributario) de la Aduana de Importación para vincular las importaciones al expediente tributario del importador. |  
+
 **(Fuente: Manual Operativo Aduanero - ARCHIVO BID)** - COMPROBADO POR MI
 
 ### Sistemas Colaboradores (External Systems)
@@ -37,6 +39,7 @@ El Diagrama C4 Nivel Contexto muestra la **Plataforma de Solución Digital F-eCX
 | **S-DEX** | **Sistema D-eX** | Sistema aduanero existente en el país exportador para el registro de la Declaración de Exportación (D-eX). |
 | **S-DEM** | **Sistema D-eM** | Sistema aduanero existente en el país importador para el registro de la Declaración de Importación (D-eM). |
 | **VUCE** | **Ventanilla Única de Comercio Exterior** | Sistema para gestionar la emisión de licencias, permisos y certificados (LPCO). |  
+
 **(Referencia: Sistemas VUCE en ALC - ARCHIVO TÉCNICO)** - COMPROBADO POR MI
 
 ### Flujos Principales
